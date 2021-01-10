@@ -7,10 +7,13 @@ version: 2
 conda:
   environment: environment.yml
 sphinx:
-  configuration: docs/source/conf.py
+  configuration: ./doc/source/conf.py
 python:
   version: 3.8
   install:
-    - requirements: docs/source/requirements.txt
+    - method: pip
+      path: .
+      extra_requirements:
+        - doc/source/requirements.txt
 conda:
   environment: .environment.yml
