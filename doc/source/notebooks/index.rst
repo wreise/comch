@@ -1,7 +1,7 @@
 .. toctree::
    :maxdepth: 3
 
-   basics
+   basics.ipynb
    surjection
    barratt_eccles
    table_reduction

@@ -32,7 +32,7 @@ author = 'Anibal M. Medina-Mardones'
 # ones.
 extensions = [
     # 'nbsphinx_link',
-    # 'nbsphinx',
+    'nbsphinx',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     # 'numpydoc',
@@ -94,3 +94,7 @@ autodoc_default_options = {
     'undoc-members': True,
     'exclude-members': '__weakref__, __dict__, __module__, __hash__, __str__'
 }
+
+# nbsphinx options
+nbsphinx_kernel_name = 'python'
+
