@@ -36,7 +36,7 @@ This package is written in Python 3 and has no dependencies. It can be installed
    :caption: Jupyter notebooks
    :maxdepth: 1
    
-   notebooks/index
+   index_notebook
 
 
 Home
