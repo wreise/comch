@@ -14,6 +14,7 @@ import sphinx_rtd_theme
 import os
 import sys
 sys.path.insert(0, os.path.abspath('..'))
+sys.path.insert(0, os.path.abspath('../../notebooks'))
 
 
 # -- Project information -----------------------------------------------------
@@ -97,4 +98,5 @@ autodoc_default_options = {
 
 # nbsphinx options
 nbsphinx_kernel_name = 'python'
+#nbsphinx_allow_errors = True
 
